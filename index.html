@@ -20,7 +20,108 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header"><h1>Hello=)</h1></header>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a class="logo" lang="en" href="./index.html"
+            >Getman<span class="logo-second">Mechanics</span></a
+          >
+          <ul class="navigation-list">
+            <li class="navigation-list-item">
+              <a class="navigation-list-link" href="./portfolio.html">Услуги</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link current-page" href="./index.html"
+                >Преимущества</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link current-page" href="./index.html"
+                >Галерея</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="burger-btn" data-menu-button>
+          <svg class="burger-icon">
+            <use href="./images/sprite.svg#burger-icon"></use>
+          </svg>
+        </button>
+        <ul class="contacts-list">
+          <li class="contacts-list-item">
+            <a class="contacts-list-link" href="mailto:getman@gmail.com">
+              <svg class="icon-envelope">
+                <use href="./images/sprite.svg#envelope"></use>
+              </svg>
+              <p>getman@gmail.com</p>
+            </a>
+          </li>
+          <li class="contacts-list-item">
+            <a class="contacts-list-link" href="tel:+380951111111"
+              ><svg class="icon-smartphone">
+                <use href="./images/sprite.svg#smartphone"></use>
+              </svg>
+              <p>+38 095 111 11 11</p></a
+            >
+          </li>
+        </ul>
+        <div class="mobile-menu" data-menu>
+          <button type="button" class="mobile-close-btn">
+            <svg class="mobile-close-icon" data-menu-close>
+              <use href="./images/sprite.svg#close"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu-wrapper">
+            <ul class="mobile-menu-nav">
+              <li class="mobile-menu-nav-item">
+                <a href="./index.html" class="mobile-menu-nav-link">Студия</a>
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a href="./portfolio.html" class="mobile-menu-nav-link"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a href="" class="mobile-menu-nav-link">Контакты</a>
+              </li>
+            </ul>
+            <ul class="mobile-contacts">
+              <li class="mobile-contacts-item">
+                <a href="tel:+380961111111" class="mobile-contacts-tel-link"
+                  ><p>+38 096 111 11 11</p></a
+                >
+              </li>
+              <li class="mobile-contacts-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-contacts-mail-link"
+                  ><p>info@devstudio.com</p></a
+                >
+              </li>
+            </ul>
+          </div>
+          <ul class="mobile-social-list">
+            <li class="mobile-social-list-item">
+              <a href="" class="mobile-social-list-link">Instagram</a>
+            </li>
+            <li class="mobile-social-list-item">
+              <a href="" class="mobile-social-list-link">Twitter</a>
+            </li>
+            <li class="mobile-social-list-item">
+              <a href="" class="mobile-social-list-link">Facebook</a>
+            </li>
+            <li class="mobile-social-list-item">
+              <a href="" class="mobile-social-list-link">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--Hero-->
+    <section class="hero"></section>
     <!-- Main -->
     <main class="main">
       <!-- Hero -->
@@ -28,5 +129,6 @@
     </main>
     <!-- Footer -->
     <footer class="footer"></footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
